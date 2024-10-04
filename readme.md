@@ -1,4 +1,4 @@
-#### React Hook Challenges
+# React Hook Challenges
 
 This repository is a collection of challenges designed to help developers practice and improve their understanding of various React hooks. Each folder focuses on a specific hook, with each challenge providing hands-on experience for mastering that hook.
 
@@ -62,8 +62,8 @@ Each `.jsx` file represents an individual challenge, which can be tested by impo
 
 Feel free to contribute by submitting new challenges or improving existing ones. You can do this by:
 
-# Forking the repository.
+#### Forking the repository.
 
-# Creating a new branch.
+#### Creating a new branch.
 
-# Submitting a pull request with your additions.
+#### Submitting a pull request with your additions.
