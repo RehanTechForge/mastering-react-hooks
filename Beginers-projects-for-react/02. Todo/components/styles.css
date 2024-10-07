@@ -1,0 +1,82 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+li{list-style: none;}
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: #f5f9ea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  background-color: #fcfff4;
+  padding: 20px 30px;
+  width: 400px;
+  min-height: 100px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.container > .form-container {
+  display: flex;
+  justify-content: center;
+}
+.container > .form-container >input{
+  width: 80%;
+  background-color: #f5f9ea;
+  outline: none;
+  border: none;
+  padding: 5px 8px;
+  height: 35px;
+  font-size: 1.2vw;
+  margin-right: 4px;
+  color: #4a4d47;
+}
+.container > .form-container > button{
+  background-color: #4a4d47;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.container > ul {
+  margin-top: 40px;
+}
+.container > ul > h1 {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container > ul >li{
+  background-color: #f5f9ea;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 3px 10px;
+  font-size: 1vw;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.container > ul >li > span{
+  background-color: #4a4d47;
+  padding: 4px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2vw;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  cursor: pointer;
+  color: white;
+}

@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.4s ease;
+}
+
+button:hover {
+  background-color: #ffa31a;
+  color: #1b1b1b !important;
+  border-color: #ffa31a;
+}
+
+.content h1 {
+  font-size: 5rem;
+  font-family: "Bungee Outline", cursive;
+  line-height: 1.2;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .content h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .content h1 {
+    font-size: 2.5rem;
+  }
+}
