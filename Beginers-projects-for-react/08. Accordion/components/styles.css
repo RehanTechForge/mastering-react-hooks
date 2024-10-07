@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(36, 36, 36);
+  color: #fff;
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border: 2px solid white;
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* Hide overflow for rounded corners */
+}
+
+.accordion-card {
+  margin: 20px;
+  padding: 20px;
+  background: rgb(73, 73, 73);
+  border-radius: 8px; /* Rounded corners for individual cards */
+  transition: background 0.3s; /* Transition for background color */
+}
+
+.accordion-card:hover {
+  background: rgb(100, 100, 100); /* Change background on hover */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center items vertically */
+  cursor: pointer; /* Change cursor to pointer */
+  width: 40rem;
+  transition: color 0.3s; /* Transition for text color */
+}
+
+.header:hover {
+  color: #ffa31a; /* Change text color on hover */
+}
+
+.icon {
+  font-size: 1.5rem;
+  transition: transform 0.3s; /* Transition for icon */
+}
+
+.icon:hover {
+  transform: scale(1.2); /* Slightly enlarge icon on hover */
+}
+
+p.card-info {
+  width: 30rem;
+  padding: 20px 0;
+  line-height: 1.3;
+  transition: max-height 0.5s ease-in-out; /* Smooth transition for content */
+  overflow: hidden; /* Hide overflowing content */
+}
